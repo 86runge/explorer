@@ -1,0 +1,79 @@
+.translate_test
+{
+    width: 100px;
+    height: 75px;
+
+    border: 1px solid black;
+    background-color: red;
+}
+
+.translate
+{
+    /* IE 9 */
+    -webkit-transform: translate(50px, 100px);
+        -ms-transform: translate(50px, 100px);
+            transform: translate(50px, 100px);
+    /* Safari and Chrome */
+}
+
+.rotate_test
+{
+    width: 200px;
+    height: 100px;
+    /* IE 9 */
+
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
+
+    background-color: yellow;
+    /* Safari and Chrome */
+}
+
+.scale_test
+{
+    width: 200px;
+    height: 100px;
+    margin: 150px;
+    /* IE 9 */
+
+    -webkit-transform: scale(2, 3);
+        -ms-transform: scale(2, 3);
+    /* Safari */
+            transform: scale(2, 3);
+
+    border: 1px solid black;
+    border: 1px solid black;
+    background-color: yellow;
+    /* 标准语法 */
+}
+
+.skew_test
+{
+    width: 100px;
+    height: 75px;
+    /* IE 9 */
+
+    -webkit-transform: skew(30deg, 20deg);
+        -ms-transform: skew(30deg, 20deg);
+            transform: skew(30deg, 20deg);
+
+    border: 1px solid black;
+    background-color: red;
+    /* Safari and Chrome */
+}
+
+.matrix_test
+{
+    width: 100px;
+    height: 75px;
+    /* IE 9 */
+
+    -webkit-transform: matrix(.866, .5, -.5, .866, 0, 0);
+        -ms-transform: matrix(.866, .5, -.5, .866, 0, 0);
+            transform: matrix(.866, .5, -.5, .866, 0, 0);
+
+    border: 1px solid black;
+    background-color: red;
+    /* Safari and Chrome */
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>css、less</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style>
+    #content {
+        margin: 50px;
+        background: #8fe444;
+        /*border: 5px solid #000;*/
+        padding: 50px;
+    }
+
+    #test {
+        width: 200px;
+        height: 100px;
+        content: "sdasdas";
+        border: 3px solid #f00;
+        outline: 3px solid #f0f;
+        padding: 20px;
+        margin: 20px;
+        background: #0ff;
+        box-sizing: border-box;
+    }
+
+    .info {
+        width: 200px;
+        height: 100px;
+        margin: 20px;
+        background: #00f;
+    }
+
+    #main {
+        width: 200px;
+        height: 100px;
+        margin: 20px;
+        background: #ebe919;
+    }
+
+    #main div {
+        margin: 20px;
+    }
+
+    p {
+        width: 100px;
+        /*overflow: hidden;
+      text-overflow:ellipsis;
+      white-space: nowrap;*/
+    }
+
+    #asda {
+      width: 200px;
+      height: auto;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <div id="test">
+            我是一个div, 我是盒模型结构
+        </div>
+        <div class="info">
+            我也是一个div
+        </div>
+        <div id="main">
+            <div></div>
+        </div>
+        <p>rqewrwqerqewrwqerqewrwqerqewrq</p>
+        <div id="asda">
+            rqewrwqerqewrwqerqewrwqerqewrqrqewrwqerqewrwqerqewrwqerqewrqrqewrwqerqewrwqerqewrwqerqewrqrqewrwqerqewrwqerqewrwqerqewrqrqewrwqerqewrwqerqewrwqerqewrq
+        </div>
+    </div>
+</body>
+
+</html>
