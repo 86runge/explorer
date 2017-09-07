@@ -36,14 +36,14 @@ Webkit内核的浏览器，必须加上-webkit前缀。
 
 3.容器的属性
 
-3.1 flex-direction 决定主轴的方向(即项目的排列方向)
+> 3.1 flex-direction 决定主轴的方向(即项目的排列方向)
 
-row（默认值）：主轴为水平方向，起点在左端。
-row-reverse：主轴为水平方向，起点在右端。
-column：主轴为垂直方向，起点在上沿。
-column-reverse：主轴为垂直方向，起点在下沿。
+   row（默认值）：主轴为水平方向，起点在左端。
+   row-reverse：主轴为水平方向，起点在右端。
+   column：主轴为垂直方向，起点在上沿。
+   column-reverse：主轴为垂直方向，起点在下沿。
 
-3.2 flex-wrap属性
+> 3.2 flex-wrap属性
 默认情况下，项目都排在一条线（又称”轴线”）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。
 
 nowrap（默认）：不换行。
